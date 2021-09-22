@@ -1,0 +1,17 @@
+header {    
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 0 auto;
+
+    nav {
+        padding: 35px 22px;
+    }
+
+    &__menu { //Mobile menu
+        background-image: url("../../images/icon-hamburger.svg");
+    }
+}
+
+.overlay {
+    display: none;
+}

@@ -1,0 +1,73 @@
+
+// Flexbox
+
+.flex {
+    display: flex;
+    &-jc-sb {
+        justify-content: space-between;
+    }
+    &-jc-c {
+        justify-content: center;
+    }
+    &-ai-c {
+        align-items: center;
+    }
+    &-d-c {
+        flex-direction: column;
+    }
+}
+
+// Visibility
+
+.hide-for-mobile { display: none; }
+
+.hide-for-desktop { display: none; }
+
+.hide { display: none; }
+
+// Links
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: white;
+    padding: 0 17px;
+}
+
+// Buttons
+
+#Bookmark {
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0;
+
+    border: none {
+        radius: 50%;
+    }
+
+    background: {
+        image: url('../../images/icon-bookmark.svg');
+        size: cover;
+    }
+}
+
+.Blue-btn {
+    height: 3.5rem;
+    color: white;
+    background-color: $Moderate-cyan;
+    border: none {
+        radius: 1.75rem;
+    }
+    padding: 0 40px;
+    font-weight: $Font-bold;
+}
+
+// Typography
+
+article, section {
+    color: $Dark-gray;
+    font-size: $Font-med;
+}
+
+h1, h2, p { color: black; }
+
+h3 { color: $Moderate-cyan; }

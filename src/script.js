@@ -1,5 +1,4 @@
-/*$(function() {
-  $(#nav-icon).click(function() {
-    $(#submenu).slideToggle(500);
-  });
-});*/
+const x = document.getElementById("nav-icon");
+x.onclick = function (event) {
+    console.log("Hello");
+}

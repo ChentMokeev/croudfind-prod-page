@@ -1,0 +1,142 @@
+@import url(https://fonts.google.com/specimen/Commissioner);
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  background-color: #FAFAFA;
+  background-image: url("../../images/image-hero-desktop.jpg");
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.flex-d-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hide-for-mobile {
+  display: none;
+}
+
+.hide-for-desktop {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+  color: white;
+  padding: 0 17px;
+}
+
+#Bookmark {
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-image: url("../../images/icon-bookmark.svg");
+  background-size: cover;
+}
+
+.Blue-btn {
+  height: 3.5rem;
+  color: white;
+  background-color: #3cb4ac;
+  border: none;
+  border-radius: 1.75rem;
+  padding: 0 40px;
+  font-weight: 700;
+}
+
+article, section {
+  color: #7a7a7a;
+  font-size: 1rem;
+}
+
+h1, h2, p {
+  color: black;
+}
+
+h3 {
+  color: #3cb4ac;
+}
+
+header {
+  max-width: 1440px;
+  min-width: 375px;
+  margin: 0 auto;
+}
+header nav {
+  padding: 35px 22px;
+}
+header__menu {
+  background-image: url("../../images/icon-hamburger.svg");
+}
+
+.overlay {
+  display: none;
+}
+
+article, section {
+  border-radius: 15px;
+  border-color: #f2f2f2;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0 1.5625rem;
+}
+
+article {
+  width: 90%;
+  max-width: 730px;
+  min-width: 375px;
+  margin: 0 auto 1.5625rem;
+  background-color: white;
+}
+article section {
+  margin-bottom: 1.5625rem;
+  border: 1px solid #dbdbdb;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+article .mastercraft {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.counter {
+  padding: 1.5625rem;
+}

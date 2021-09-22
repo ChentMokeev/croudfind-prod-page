@@ -1,0 +1,35 @@
+article, section {
+  
+  border: {
+    radius: 15px;
+    color: hsl(0, 0%, 95%);
+    width: 1px;
+    style: solid;
+  }
+
+  padding: 0 1.5625rem;
+}
+
+article {
+
+  width: 90%;
+  max-width: 730px;
+  min-width: 375px;
+  margin: 0 auto 1.5625rem;
+  background-color: white;
+
+  section { margin-bottom: 1.5625rem; 
+    border: 1px solid hsl(0, 0%, 86%);
+    padding: {
+      top: 1rem;
+      bottom: 1rem;
+    }
+  }
+
+  .mastercraft { transform: translateY(-50%); }
+
+  }
+
+  .counter { 
+    padding: 1.5625rem; 
+  }
